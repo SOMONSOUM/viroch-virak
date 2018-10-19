@@ -8,7 +8,7 @@ body {
   /* font: 15px/1.5 Arial, Helvetica, sans-serif; */
   padding: 0;
   margin: 0;
-  background-color: #f4f4f4f4;
+  background-color: #F4F4F4F4;
 }
 
 /* Container for Global */
@@ -26,11 +26,11 @@ ul {
 
 .btn-sub {
   height: 40px;
-  background: #00ba54;
+  background: #00BA54;
   border-radius: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -39,36 +39,36 @@ ul {
 .dark {
   width: 200px
   padding: 15px;
-  background: #08243d;
-  color: #ffffff;
+  background: #08243D;
+  color: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 10px;
-  box-shadow: 6px 6px 6px #aaaaaa;
+  box-shadow: 6px 6px 6px #AAAAAA;
   border-radius: 10px;
 }
 
 /* Header */
 header {
-  background-color: #08243d;
+  background-color: #08243D;
   color: #ffffff;
   padding-top: 30px;
   min-height: 70px;
-  border-bottom: #00ba54 2px solid;
+  border-bottom: #00BA54 2px solid;
   /* box-shadow: 4px 4px 4px #00BA54 */
 }
 
 header .viroch {
   font-weight: normal;
   text-transform: uppercase;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 4px 4px 4px #AAAAAA;
   font-family: "Monoton", cursive;
   font-size: 48px;
-  color: #00ba54;
+  color: #00BA54;
 }
 
 /* List of Navigation */
 header a {
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -76,12 +76,12 @@ header a {
 
 /* Current click with color */
 header .current a {
-  color: #00ba54;
+  color: #00BA54;
   font-weight: bold;
 }
 
 header a:hover {
-  color: #cccccc;
+  color: #CCCCCC;
   font-weight: bold;
 }
 
@@ -107,7 +107,7 @@ header #branding {
 /* Set margin for branding h1 to zero (top right bottom left) */
 header #branding h1 {
   margin: 0;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
   margin-bottom: 10px;
   text-transform: capitalize;
@@ -117,7 +117,7 @@ header #branding h1 {
 #showcase {
   min-height: 400px;
   background: url("../img/landscape-bg.jpg") no-repeat 0 -500px;
-  color: #ffffff;
+  color: #FFFFFF;
   text-align: center;
 }
 
@@ -135,7 +135,7 @@ header #branding h1 {
 #subscribe {
   background: #08243d;
   border-top: #00ba54 2px solid;
-  color: #ffffff;
+  color: #FFFFFF;
   box-shadow: 4px 4px 4px #aaaaaa;
   /* border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; */
@@ -196,6 +196,10 @@ article#main-col {
   width: 65%;
 }
 
+/* article#main-blog{
+  float: left;
+  width: 65%;
+} */
 aside#sidebar iframe {
   width: 320px;
   height: 345px;
@@ -205,6 +209,7 @@ aside#sidebar h3 {
   text-transform: uppercase;
   text-align: center;
 }
+
 /* Contact Me */
 aside#sidebar .submit-form input, textarea {
   padding: 6px;
@@ -213,6 +218,7 @@ aside#sidebar .submit-form input, textarea {
   border-radius: 10px;
   font-family: 'Quicksand', sans-serif;
 }
+
 aside#sidebar .submit-form textarea {
   padding: 6px;
   height: 100px;
@@ -220,10 +226,12 @@ aside#sidebar .submit-form textarea {
   border-radius: 10px;
   font-family: 'Quicksand', sans-serif;
 }
+
 .submit-form {
   margin: 15px;
 }
-.submit-form .btn-form{
+
+.submit-form .btn-form {
   padding: 10px;
   text-align: center;
 }
@@ -232,22 +240,28 @@ aside#sidebar .submit-form textarea {
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Quicksand', sans-serif;
+  text-align: center;
 }
 
 /* My Blog */
-ul#blog li{
+ul#blog li {
   list-style: none;
   background: #CCCCCC;
   border-radius: 10px;
   border-left: #38A371 6px solid;
   border-right: #38A371 6px solid;
 }
-ul#blog h3{
+
+ul#blog h3 {
   color: #38A371;
 }
-ul#blog h3, p{
-  /* padding-left: 40px;
-  padding-right: 40px; */
+
+ul#blog p {
+  padding: 10px 40px 10px 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#blog h3 {
   padding: 10px 40px 10px 40px;
   font-family: 'Quicksand', sans-serif;
 }
