@@ -170,10 +170,8 @@ header #branding h1 {
 #planets .moon{
   width: 200px;
 } */
-
 /*--------- About Page---------------------- */
 /* Sidebar */
-
 aside#sidebar {
   float: right;
   width: 30%;
@@ -218,6 +216,7 @@ footer img {
 
 /* Media Queries */
 @media (max-width: 768px) {
+
   header #branding,
   header nav,
   header nav li,
@@ -227,11 +226,16 @@ footer img {
   article#main-col,
   aside#sidebar {
     float: none;
+    display: block;
     text-align: center;
     width: 100%;
   }
 
   header {
+    padding-bottom: 20px;
+  }
+
+  #subscribe {
     padding-bottom: 20px;
   }
 
