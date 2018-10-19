@@ -37,12 +37,8 @@ ul {
 }
 
 .dark {
-  width: 200px
-  padding: 15px;
   background: #08243D;
   color: #FFFFFF;
-  margin-top: 10px;
-  margin-bottom: 10px;
   box-shadow: 6px 6px 6px #AAAAAA;
   border-radius: 10px;
 }
@@ -287,7 +283,7 @@ footer img {
 }
 
 /* Media Queries */
-@media (max-width: 600px) {
+@media(max-width: 768px){
 
   header #branding,
   header nav,
@@ -298,7 +294,18 @@ footer img {
   article#main-col,
   aside#sidebar {
     float: none;
-    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  aside#sidebar iframe {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  aside#sidebar .dark {
+    float: none;
     text-align: center;
     width: 100%;
   }
@@ -317,6 +324,10 @@ footer img {
 
   #subscribe button,
   .blog button {
+    display: block;
+    width: 100%;
+  }
+  header nav li{
     display: block;
     width: 100%;
   }
