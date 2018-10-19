@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
 </head>
 
 <body>
@@ -37,71 +38,51 @@
       </nav>
     </div>
   </header>
-  <!-- Showcase Section-->
-  <section id="showcase">
+  <!-- Main section -->
+  <section id="main">
     <div class="container">
-      <h1>Welcome To Contact Me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis earum, exercitationem doloremque
-        reprehenderit modi ab ipsum quaerat autem commodi ipsa?</p>
+      <article id="main-col">
+        <h1 class="page-title">Contact Me</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum in culpa nisi dignissimos
+          consectetur itaque omnis aspernatur, corrupti labore accusamus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur eaque aliquam odio deserunt
+          explicabo culpa assumenda? Dignissimos explicabo maxime eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque molestiae neque animi
+          maiores consectetur fugit delectus rem explicabo odio, maxime consequuntur eos sint magnam
+          asperiores unde earum? Rem, ducimus!</p>
+      </article>
+      <aside id="sidebar">
+        <div class="dark">
+          <h3>Get In Touch</h3>
+          <form class="submit-form">
+            <div class="name-txt">
+              <label>Full Name</label><br>
+              <input type="text" placeholder="Full Name*" name="full-name" value="">
+            </div>
+            <div class="email-txt">
+              <label>Email</label><br>
+              <input type="email" placeholder="Email*" name="email" value="">
+            </div>
+            <div class="messege-txt">
+              <label>Messege</label><br>
+              <textarea placeholder="Leave your messege here*"></textarea>
+            </div>
+            <div class="btn-form">
+              <button type="submit" class="btn-sub" name="button">Submit</button>
+            </div>
+          </form>
+        </div>
+      </aside>
     </div>
-  </section>
-  <!-- Subscribe Section -->
-  <section id="subscribe">
-    <div class="container">
-      <h1>Subscribe</h1>
-      <form class="sub-form">
-        <input type="email" name="email" value="" placeholder="Enter your email">
-        <button type="submit" name="button" class="btn-sub">Subscribe</button>
-      </form>
-    </div>
-  </section>
-  <!-- Planets section -->
-  <section id="planets">
-    <div class="container">
-      <!-- Earth -->
-      <div class="planet">
-        <img class="earth" src="img/earth.png" alt="">
-        <h3>Earth</h3>
-        <p>Earth is the third planet from the Sun and the only object in the Universe known to harbor life.
-          According to radiometric dating and other sources of evidence, Earth formed over 4 billion years
-          ago. Earth's gravity interacts with other
-          objects in space, especially the Sun and the Moon, Earth's only natural satellite. Earth revolves
-          around the Sun in 365.26 days, a period known as an Earth year. During this time, Earth rotates
-          about its axis about 366.26 times.</p>
-      </div>
-      <!-- Mars -->
-      <div class="planet">
-        <img class="mars" src="img/mars.png" alt="">
-        <h3>Mars</h3>
-        <p>Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after
-          Mercury. In English, Mars carries a name of the Roman god of war, and is often referred to as the
-          'Red Planet' because the reddish iron oxide
-          prevalent on its surface gives it a reddish appearance that is distinctive among the astronomical
-          bodies visible to the naked eye. Mars is a terrestrial planet with a thin atmosphere, having
-          surface features reminiscent both of the impact
-          craters of the Moon and the valleys, deserts, and polar ice caps of Earth.</p>
-      </div>
-      <!-- Moon -->
-      <div class="planet">
-        <img class="moon" src="img/moon.png" alt="">
-        <h3>Moon</h3>
-        <p>The Moon is an astronomical body that orbits planet Earth, being Earth's only permanent natural
-          satellite. It is the fifth-largest natural satellite in the Solar System, and the largest among
-          planetary satellites relative to the size of
-          the planet that it orbits (its primary). Following Jupiter's satellite Io, the Moon is
-          second-densest satellite among those whose densities are known.</p>
-      </div>
-    </div>
-  </section>
 
-  <footer>
-    <!-- Viroch -->
-    <div class="planet">
-      <a href="#"><img class="neptune" src="assets/u2.png" alt=""></a>
-      <h3> <span>Created by</span> Viroch Virak</h3>
-    </div>
-    <p>Copyright &copy; 2018-2019</p>
-  </footer>
+    <footer>
+      <!-- Viroch -->
+      <div class="planet">
+        <a href="#"><img class="neptune" src="assets/u2.png" alt=""></a>
+        <h3> <span>Created by</span> Viroch Virak</h3>
+      </div>
+      <p>Copyright &copy; 2018-2019</p>
+    </footer>
 </body>
 
 </html>
