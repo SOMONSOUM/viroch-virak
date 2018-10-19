@@ -18,7 +18,7 @@ body {
   overflow: hidden;
 }
 
-/* Delete all ul(*) */
+/* Delete all ul as Global(*) */
 ul {
   padding: 0;
   margin: 0;
@@ -58,7 +58,7 @@ header .viroch {
   text-transform: uppercase;
   text-shadow: 4px 4px 4px #AAAAAA;
   font-family: "Monoton", cursive;
-  font-size: 48px;
+  font-size: 40px;
   color: #00BA54;
 }
 
@@ -68,6 +68,7 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
+  display: block;
 }
 
 /* Current click with color */
@@ -132,7 +133,7 @@ header #branding h1 {
   background: #08243d;
   border-top: #00ba54 2px solid;
   color: #FFFFFF;
-  box-shadow: 4px 4px 4px #aaaaaa;
+  box-shadow: 4px 4px 4px #AAAAAA;
   /* border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; */
 }
@@ -149,7 +150,7 @@ header #branding h1 {
 #subscribe input[type="email"] {
   padding: 6px;
   height: 25px;
-  width: 300px;
+  width: 250px;
   border-radius: 10px;
   font-family: 'Quicksand', sans-serif;
 }
@@ -207,18 +208,18 @@ aside#sidebar h3 {
 }
 
 /* Contact Me */
-aside#sidebar .submit-form input, textarea {
-  padding: 6px;
-  height: auto;
-  width: 280px;
+aside#sidebar .submit-form input {
+  padding: 2px 0 0 2px;
+  height: 30px;
+  width: 100%;
   border-radius: 10px;
   font-family: 'Quicksand', sans-serif;
 }
 
 aside#sidebar .submit-form textarea {
-  padding: 6px;
+  padding: 2px 0 0 2px;
   height: 100px;
-  width: 280px;
+  width: 100%;
   border-radius: 10px;
   font-family: 'Quicksand', sans-serif;
 }
@@ -244,21 +245,22 @@ ul#blog li {
   list-style: none;
   background: #CCCCCC;
   border-radius: 10px;
-  border-left: #38A371 6px solid;
-  border-right: #38A371 6px solid;
+  border-left: #00ba54 6px solid;
+  border-right: #00ba54 6px solid;
+  box-shadow: 4px 4px 4px #AAAAAA;
 }
 
 ul#blog h3 {
-  color: #38A371;
+  color: #00ba54;
 }
 
 ul#blog p {
-  padding: 10px 40px 10px 40px;
+  padding: 0px 40px 5px 40px;
   font-family: 'Quicksand', sans-serif;
 }
 
 #blog h3 {
-  padding: 10px 40px 10px 40px;
+  padding: 5px 40px 0px 40px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -278,12 +280,10 @@ footer p {
 
 footer img {
   width: 100px;
-  /* border-radius: 60px;
-  box-shadow: 4px 4px 4px #aaaaaa; */
 }
 
 /* Media Queries */
-@media(max-width: 768px){
+@media(max-width: 768px) {
 
   header #branding,
   header nav,
@@ -327,12 +327,18 @@ footer img {
     display: block;
     width: 100%;
   }
-  header nav li{
+
+  header nav li {
     display: block;
     width: 100%;
   }
 
-  #subscribe form input[type="email"],
+  #subscribe form input[type="email"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .dark form input,
   .blog input,
   .blog textarea {
     width: 100%;
