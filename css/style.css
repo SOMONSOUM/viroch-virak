@@ -1,11 +1,8 @@
 /* Body  */
 body {
   font-family: 'Quicksand', sans-serif;
-  /* font-family: "Gudea", sans-serif; */
-  /* font-family: 'Lato', sans-serif; */
   font-size: 20px;
   line-height: 1.5;
-  /* font: 15px/1.5 Arial, Helvetica, sans-serif; */
   padding: 0;
   margin: 0;
   background-color: #F4F4F4F4;
@@ -50,7 +47,6 @@ header {
   padding-top: 30px;
   min-height: 70px;
   border-bottom: #00BA54 2px solid;
-  /* box-shadow: 4px 4px 4px #00BA54 */
 }
 
 header .viroch {
@@ -156,30 +152,29 @@ header #branding h1 {
 }
 
 /* Planets */
-#planets {
-  margin-top: 20px;
+.planets {
+  /* margin-top: 30px; */
+  display: grid; 
+  grid-column-gap: 1em;
+  grid-template-columns: 1fr 1fr 1fr; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #planets .planet {
   float: left;
   text-align: center;
-  width: 30%;
+  margin: 20px 0px;
   padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #010c220f;
+  background: #ffffff;
 }
 
 #planets img {
-  width: 90px;
+  width: 100%;
 }
 
-/* #planets .earth{
-  width: 200px;
-}
-#planets .neptune{
-  width: 200px;
-}
-#planets .moon{
-  width: 200px;
-} */
 /*--------- About Page---------------------- */
 /* Sidebar */
 aside#sidebar {
@@ -193,10 +188,6 @@ article#main-col {
   width: 65%;
 }
 
-/* article#main-blog{
-  float: left;
-  width: 65%;
-} */
 aside#sidebar iframe {
   width: 320px;
   height: 345px;
@@ -271,7 +262,6 @@ footer {
   color: #ffffff;
   background: #08243d;
   border-top: #00ba54 4px solid;
-  margin-top: 20px;
 }
 
 footer p {
